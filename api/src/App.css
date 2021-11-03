@@ -1,0 +1,146 @@
+.nav ul li{
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.nav ul {
+  background-color: maroon;
+  padding: 1rem;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+}
+
+.cards {
+  width: 30%;
+  border: 1px solid maroon;
+  background-color: white;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid maroon;
+  color:maroon;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+
+.fav {
+  margin: 20px 20px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.fav li {
+  background-color: rgba(168, 159, 159, 0.295);
+  border: 1px solid black;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.cardCoun {
+   background-color: whitesmoke;
+   
+
+}
+
+
+.cardCoun h1 {
+  color: maroon;
+  text-align: center;
+  
+}
+
+.cardCoun img {
+  width: 40%;
+  height: 500px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+
+.cardsL {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 1rem;
+  background-color: rgba(128, 0, 0, 0.925);
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  background-color: maroon;
+}
+
+
+.icon {
+  color: white;
+  font-size: 30px;
+}
+
+
+.fav {
+  margin: 20px 20px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.fav li {
+background-color: rgba(168, 159, 159, 0.295);
+  border: 1px solid black;
+  list-style-type: none;
+text-align: center;
+font-size: 20px;
+}
+
+
+.fav img {
+  margin:5px 5px;
+width: 300px;
+height: 300px;
+}
+
+
+.icon {
+  color: white;
+  font-size: 30px;
+
+}
+
+.search {
+  padding-right: 270px;
+  padding-bottom: 5px;
+  margin-left: 530px;
+  border: 2px solid rgba(128, 0, 0, 0.849);
+}
